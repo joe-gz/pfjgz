@@ -1,0 +1,39 @@
+points = {
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"11/13/2015",
+            "Time":"09:00pm EST",
+            "Description":"Joe and Patricia Meet",
+            "Location":"Becca's House",
+            "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.043552,
+               38.924882
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"12/05/2015",
+            "Time":"11:30pm EST",
+            "Description":"Our First Kiss (Remember?)",
+            "Location":"Genna's House",
+            "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.059764,
+               38.937663
+            ]
+         }
+      }
+   ]
+}
