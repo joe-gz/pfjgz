@@ -1,4 +1,4 @@
-var map = L.map('map').setView([38.9072, -77.0369], 13);
+var map = L.map('map').setView([38.9072, -77.0369], 12);
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
@@ -9,9 +9,22 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 var photoDiv = '';
 
+function circlestyle(feature) {
+  return {
+    radius: 8,
+    fillColor: 'red',
+    weight: 1,
+    opacity: 1,
+    color: 'white',
+    // dashArray: '3',
+    fillOpacity: 1,
+    className: 'circleMarker'
+  };
+}
+
 pointMarkers = L.geoJson(points, {
 			pointToLayer: function (feature, latlng) {
-				return L.circleMarker(latlng,   {fill:'red'} );
+				return L.circleMarker(latlng,   circlestyle(feature));
 			},
 			onEachFeature: function(feature, point) {
         var showPhotos = function () {
@@ -24,7 +37,7 @@ pointMarkers = L.geoJson(points, {
           console.log(photoDiv);
           return photoDiv.innerHTML
         };
-				point.bindPopup('<p>Date: '+feature.properties.Date+'</p><p>Time: '+feature.properties.Time+'</p><p>What: '+feature.properties.Description+'</p><p>Where: '+feature.properties.Location+'</p>'+'<div>'+showPhotos()+'</div>',
+				point.bindPopup('<p>What: '+feature.properties.Description+'</p><p>Where: '+feature.properties.Location+'</p>'+'<p>Date: '+feature.properties.Date+'</p><p>Time: '+feature.properties.Time+'</p><div>'+showPhotos()+'</div>',
       {maxWidth: 250, minWidth: 200, maxHeight: 150, autoPan: true});
 				point.on('click', function (){ point.openPopup(); })
 			}

@@ -1,19 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Playball);
+
 * {
   box-sizing: border-box;
 }
 
 html, body {
-  width: 95%;
   height: 95%;
   margin: 0;
+  background-color: #303030;
+  color: #E5E5E5;
+  font-family: Oswald, Sans-serif;
 }
 
 .header-container {
+  text-align: center;
+  font-family: Playball;
+  line-height: 1.5em;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.title {
   font-size: 2em;
+}
+
+.sub-title {
+  font-size: 1.5em;
 }
 
 #map {
   width: 95%;
   height: 95%;
   margin: 0 auto;
+}
+
+.leaflet-popup-content {
+  color: black;
 }
