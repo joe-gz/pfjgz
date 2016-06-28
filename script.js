@@ -3,7 +3,8 @@ var map = L.map('map').setView([38.9072, -77.0369], 13);
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
-    
+    id: 'joegz.0g5b9af9',
+    accessToken:'pk.eyJ1Ijoiam9lZ3oiLCJhIjoiY2lwdTR1czM1MDhiOGZ1bTJ0YmZyYmRjaiJ9.xvTMZMcfWMKG3ZLFahgJ9g'
 }).addTo(map);
 
 var photoDiv = '';
