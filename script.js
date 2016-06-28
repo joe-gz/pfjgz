@@ -22,9 +22,10 @@ pointMarkers = L.geoJson(points, {
             photoDiv.appendChild(imageEl)
           }
           console.log(photoDiv);
-          return '"'+photoDiv+'"'
+          return photoDiv.innerHTML
         };
-				point.bindPopup('<p>Date: '+feature.properties.Date+'</p><p>Time: '+feature.properties.Time+'</p><p>What: '+feature.properties.Description+'</p><p>Where: '+feature.properties.Location+'</p>'+'<div>'+showPhotos()+'</div>');
+				point.bindPopup('<p>Date: '+feature.properties.Date+'</p><p>Time: '+feature.properties.Time+'</p><p>What: '+feature.properties.Description+'</p><p>Where: '+feature.properties.Location+'</p>'+'<div>'+showPhotos()+'</div>',
+      {maxWidth: 250, minWidth: 200, maxHeight: 150, autoPan: true});
 				point.on('click', function (){ point.openPopup(); })
 			}
 		}).addTo(map);
