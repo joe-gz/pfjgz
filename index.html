@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link rel="stylesheet" href="sidebar/L.Control.Sidebar.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="leaflet/leaflet.js"></script>
+    <script src="sidebar/L.Control.Sidebar.js"></script>
     <script src="./data/map.geojson"></script>
   </head>
   <body>
@@ -18,7 +20,11 @@
       <div class="intro-text">Some nice text is gonna go here</div>
       <div class="toggle-intro">Click to Enter</div>
     </div>
-    <div id="map"></div>
+    <div id="map">
+      <div id="sidebar">
+        <h1>leaflet-sidebar</h1>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

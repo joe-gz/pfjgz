@@ -11,6 +11,15 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
   accessToken:'pk.eyJ1Ijoiam9lZ3oiLCJhIjoiY2lwdTR1czM1MDhiOGZ1bTJ0YmZyYmRjaiJ9.xvTMZMcfWMKG3ZLFahgJ9g'
 }).addTo(map);
 
+// var sidebar = L.control.sidebar('sidebar', {
+//     position: 'left'
+// });
+//
+// map.addControl(sidebar);
+// setTimeout(function () {
+//     sidebar.show();
+// }, 500);
+
 var photoDiv = '';
 
 function circlestyle(feature) {
