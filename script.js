@@ -1,5 +1,6 @@
-var introButton = document.querySelector(".toggle-intro");
+var toggleButton = document.querySelector(".toggle-intro");
 var introOverlay = document.querySelector("#overlay");
+var introButton = document.querySelector("#intro-button")
 
 var map = L.map('map').setView([38.9072, -77.0369], 12);
 
@@ -46,6 +47,10 @@ pointMarkers = L.geoJson(points, {
   }
 }).addTo(map);
 
-introButton.addEventListener("click", function (){
+toggleButton.addEventListener("click", function (){
   introOverlay.style.visibility = 'hidden';
+})
+
+introButton.addEventListener("click", function (){
+  introOverlay.style.visibility = 'visible';
 })
