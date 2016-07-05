@@ -11,11 +11,11 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
   accessToken:'pk.eyJ1Ijoiam9lZ3oiLCJhIjoiY2lwdTR1czM1MDhiOGZ1bTJ0YmZyYmRjaiJ9.xvTMZMcfWMKG3ZLFahgJ9g'
 }).addTo(map);
 
-// var sidebar = L.control.sidebar('sidebar', {
-//     position: 'left'
-// });
-//
-// map.addControl(sidebar);
+var sidebar = L.control.sidebar('sidebar', {
+    position: 'left'
+});
+
+map.addControl(sidebar);
 // setTimeout(function () {
 //     sidebar.show();
 // }, 500);
@@ -52,7 +52,7 @@ pointMarkers = L.geoJson(points, {
     };
     point.bindPopup('<p><span class=spanText>What</span>: '+feature.properties.Description+'</p><p><span class=spanText>Where</span>: '+feature.properties.Location+'</p>'+'<p><span class=spanText>Date</span>: '+feature.properties.Date+'</p><p><span class=spanText>Time</span>: '+feature.properties.Time+'</p><div>'+showPhotos()+'</div>',
     {maxWidth: 250, minWidth: 200, maxHeight: 150, autoPan: true});
-    point.on('click', function (){ point.openPopup(); })
+    point.on('click', function (){ sidebar.show(); })
   }
 }).addTo(map);
 
