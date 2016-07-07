@@ -8,6 +8,7 @@ points = {
             "Time":"09:00pm EST",
             "Description":"Joe and Patricia Meet",
             "Location":"Becca's House",
+            "event_type": "star",
             "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
          },
          "geometry":{
@@ -25,6 +26,7 @@ points = {
             "Time":"11:30pm EST",
             "Description":"Our First Kiss (Remember?)",
             "Location":"Genna's House",
+            "event_type": "heart",
             "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
          },
          "geometry":{
@@ -42,6 +44,7 @@ points = {
             "Time":"10:00pm EST",
             "Description":"The Relationship Begins for Real",
             "Location":"Patricia's Old Apt",
+            "event_type": "heart",
             "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
          },
          "geometry":{
@@ -59,6 +62,7 @@ points = {
             "Time":"Unlimited",
             "Description":"Cooking Dinners, Sporcle, Snapchat Photos, Scattegories",
             "Location":"Patricia's Apt",
+            "event_type": "heart",
             "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
          },
          "geometry":{
@@ -76,6 +80,7 @@ points = {
             "Time":"1:30pm EST",
             "Description":"Teaching Joe How to Selfie",
             "Location":"Riverside Park",
+            "event_type": "star",
             "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
          },
          "geometry":{
@@ -93,6 +98,7 @@ points = {
             "Time":"1:30pm EST",
             "Description":"First of Many Picnics: Joe Confirms, He's in Love",
             "Location":"Rock Creek Park",
+            "event_type": "heart",
             "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
          },
          "geometry":{
