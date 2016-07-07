@@ -120,3 +120,44 @@ html, body {
   top: 10%;
   height: 90%;
 }
+
+.leaflet-sidebar .close {
+  font-size: 2em;
+  top: 10px;
+  right: 0px;
+}
+
+.my-div-icon {
+  background: yellow;
+  width: 20px;
+  height: 20px;
+}
+
+.popup-photo {
+  width: 100%;
+  border-radius: 1em;
+}
+
+#sidebar {
+  color: #3A383B;
+}
+
+.heart-div-icon, .food-div-icon, .sport-div-icon, .star-div-icon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+
+.heart-div-icon {
+  background-image: url("images/like-sm.png");
+}
+.food-div-icon {
+  background-image: url("images/food-sm.png");
+}
+.sport-div-icon {
+  background-image: url("images/baseball-sm.png");
+}
+.star-div-icon {
+  background-image: url("images/star-sm.png");
+}
