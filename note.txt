@@ -1,0 +1,11 @@
+
+	var map = L.map('map').setView([33.7490, -84.3880], 3.5),
+	pointMarkers, line, poly;
+	var clickCount = 1;
+	var pointList = [];
+
+	L.tileLayer('./world_topo_map/{z}/{y}/{x}', {
+		maxZoom: 5,
+		minZoom: 1,
+		attribution:'  <div class="logo-med"></div>'
+	}).addTo(map);
