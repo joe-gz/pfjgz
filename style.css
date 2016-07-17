@@ -75,11 +75,11 @@ html, body {
 }
 
 .intro-text {
-  width: 70%;
+  width: 65%;
   text-align: center;
   position: absolute;
   color: #3A383B;
-  top: 20%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all ease 0.33s;
@@ -162,3 +162,7 @@ html, body {
 .star-div-icon {
   background-image: url("icons/star-sm.png");
 }
+
+ .intro-paragraph {
+   margin: 0;
+ }
