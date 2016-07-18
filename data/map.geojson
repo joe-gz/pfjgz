@@ -14,8 +14,8 @@ points = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.043552,
-               38.924882
+               -77.0459287,
+               38.924304
             ]
          }
       },
@@ -27,7 +27,7 @@ points = {
             "Description":"Our First Kiss (Remember?)",
             "Location":"Genna's House",
             "event_type": "heart",
-            "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
+            "photo_urls":[]
          },
          "geometry":{
             "type":"Point",
@@ -60,7 +60,7 @@ points = {
          "properties":{
             "Date":"So many great days",
             "Time":"Unlimited",
-            "Description":"Cooking Dinners, Sporcle, Snapchat Photos, Scattegories",
+            "Description":"Lazy Saturdays, Sporcle, Snapchat Photos, Scattegories",
             "Location":"Patricia's Apt",
             "event_type": "heart",
             "photo_urls":["../images/papt1.jpg","../images/papt2.jpg","../images/papt3.jpg","../images/papt4.jpg"]
@@ -99,7 +99,7 @@ points = {
             "Description":"First of Many Picnics: Joe Confirms, He's in Love",
             "Location":"Rock Creek Park",
             "event_type": "heart",
-            "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
+            "photo_urls":[]
          },
          "geometry":{
             "type":"Point",
@@ -117,13 +117,13 @@ points = {
             "Description":"Patricia Meets Joan",
             "Location":"Mama Glatman's Apt",
             "event_type": "star",
-            "photo_urls":["../images/nyapt1.jpg"]
+            "photo_urls":["../images/nyapt1.png"]
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.0526432,
-               38.922084
+               -73.9820432,
+               40.7865848
             ]
          }
       },
@@ -140,8 +140,8 @@ points = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.0526432,
-               38.922084
+               -77.4147057,
+               39.3790692
             ]
          }
       },
@@ -158,8 +158,8 @@ points = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.0526432,
-               38.922084
+               -77.0295877,
+               38.909051
             ]
          }
       },
@@ -171,13 +171,13 @@ points = {
             "Description":"Joe Meets the Frontanes Family",
             "Location":"San Juan, PR",
             "event_type": "star",
-            "photo_urls":["../images/sanjuan1.jpg","../images/sanjuan2.jpg","../images/sanjuan3.jpg","../images/sanjuan4.jpg"]
+            "photo_urls":["../images/sanjuan3.jpg","../images/sanjuan1.jpg","../images/sanjuan2.jpg"]
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.0526432,
-               38.922084
+               -66.1365648,
+               18.4660551
             ]
          }
       },
@@ -194,8 +194,8 @@ points = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.0526432,
-               38.922084
+               -77.499392,
+               38.827453
             ]
          }
       },
@@ -212,8 +212,8 @@ points = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.0526432,
-               38.922084
+               -73.9283632,
+               40.8296426
             ]
          }
       },
@@ -223,15 +223,15 @@ points = {
             "Date":"05/20/2016",
             "Time":"08:00am EST",
             "Description":"Visiting a Beautiful Island",
-            "Location":"Caja del muerto",
+            "Location":"Caja de muertos",
             "event_type": "star",
             "photo_urls":["../images/island1.jpg"]
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.0526432,
-               38.922084
+               -66.5284448,
+               17.8930395
             ]
          }
       },
@@ -241,15 +241,15 @@ points = {
             "Date":"05/19/2016",
             "Time":"04:00pm EST",
             "Description":"A Walk on the Beach",
-            "Location":"Isabella - The Frontanes Beach House",
+            "Location":"Isabela - The Frontanes Beach House",
             "event_type": "heart",
             "photo_urls":["../images/isabella1.jpg","../images/isabella2.jpg","../images/isabella3.jpg","../images/isabella4.jpg","../images/isabella5.jpg","../images/isabella6.jpg"]
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.0526432,
-               38.922084
+               -67.0375721,
+               18.4992902
             ]
          }
       },
@@ -266,8 +266,8 @@ points = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.0526432,
-               38.922084
+               -66.824126,
+               18.342346
             ]
          }
       },
@@ -284,8 +284,8 @@ points = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.0526432,
-               38.922084
+               -77.0074329,
+               38.8730102
             ]
          }
       }

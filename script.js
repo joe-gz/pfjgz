@@ -4,12 +4,12 @@ var introButton = document.querySelector("#intro-button")
 
 var map = L.map('map').setView([38.9072, -77.0369], 12);
 
-// L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-//   attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-//   maxZoom: 18,
-//   id: 'joegz.0g5b9af9',
-//   accessToken:'pk.eyJ1Ijoiam9lZ3oiLCJhIjoiY2lwdTR1czM1MDhiOGZ1bTJ0YmZyYmRjaiJ9.xvTMZMcfWMKG3ZLFahgJ9g'
-// }).addTo(map);
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+  attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+  maxZoom: 18,
+  id: 'joegz.0g5b9af9',
+  accessToken:'pk.eyJ1Ijoiam9lZ3oiLCJhIjoiY2lwdTR1czM1MDhiOGZ1bTJ0YmZyYmRjaiJ9.xvTMZMcfWMKG3ZLFahgJ9g'
+}).addTo(map);
 
 var sidebar = L.control.sidebar('sidebar', {
     position: 'left'
@@ -34,19 +34,24 @@ pointMarkers = L.geoJson(points, {
     var showPhotos = function () {
       photoDiv = L.DomUtil.create('div', 'popup-photo-div')
       var photoLength = feature.properties.photo_urls.length;
+      console.log(photoLength);
       var properties = feature.properties;
-      for (var i = 0; i < photoLength; i++){
-        var imageEl = document.createElement('img');
-        imageEl.classList.add('popup-photo')
-        imageEl.src = properties.photo_urls[i];
-        photoDiv.appendChild(imageEl)
+      if (photoLength === 0) {
+        photoDiv.innerHTML = "<div>We'll add pics together :)</div>"
+      } else {
+        for (var i = 0; i < photoLength; i++){
+          var imageEl = document.createElement('img');
+          imageEl.classList.add('popup-photo')
+          imageEl.src = properties.photo_urls[i];
+          photoDiv.appendChild(imageEl)
+        }
       }
       console.log(photoDiv);
       return photoDiv.innerHTML
     };
     point.on('click', function (){
       var sidebarDiv = document.querySelector("#sidebar");
-      sidebarDiv.innerHTML = '<p><span class=spanText>What</span>: '+feature.properties.Description+'</p><p><span class=spanText>Where</span>: '+feature.properties.Location+'</p>'+'<p><span class=spanText>Date</span>: '+feature.properties.Date+'</p><p><span class=spanText>Time</span>: '+feature.properties.Time+'</p><div>'+showPhotos()+'</div>'
+      sidebarDiv.innerHTML = '<div class=sidebar-text><p class=what-text>'+feature.properties.Description+'</p><p><span class=spanText>Where</span>: '+feature.properties.Location+'</p>'+'<p><span class=spanText>Date</span>: '+feature.properties.Date+'</p></div><div>'+showPhotos()+'</div>'
       sidebar.show();})
   }
 }).addTo(map);
@@ -61,6 +66,5 @@ introButton.addEventListener("click", function (){
 
 function createIcon (type) {
   var myIcon = L.divIcon({className: type+'-div-icon', iconSize: null});
-  console.log(myIcon);
   return myIcon
 }
