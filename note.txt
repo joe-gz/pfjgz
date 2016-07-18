@@ -1,0 +1,23 @@
+
+	var map = L.map('map').setView([33.7490, -84.3880], 3.5),
+	pointMarkers, line, poly;
+	var clickCount = 1;
+	var pointList = [];
+
+	L.tileLayer('./world_topo_map/{z}/{y}/{x}', {
+		maxZoom: 5,
+		minZoom: 1,
+		attribution:'  <div class="logo-med"></div>'
+	}).addTo(map);
+
+
+Patricia, I love you more than I thought was possible, yet somehow it's even more every day.
+Thank you so much for allowing me to be a part of your life. You are the most amazing and fascinating woman.
+You have made me the happiest person on earth. I promise I will continue to do everything I can to make you happy for a lifetime if you'll have me.
+You are the love of my life, and my best friend. I am yours forever.
+
+
+
+This app is meant to be a sort of virtual scrap book, for what I can only hope will be a LIFETIME of adventures, romantic nights, fun activities, travels, and more.
+I hope we can keep improving it together, with all of our memories, and everything to come.
+I LOVE YOU! You have my heart, and you can keep it forever
