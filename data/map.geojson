@@ -45,7 +45,7 @@ points = {
             "Description":"The Relationship Begins for Real",
             "Location":"Patricia's Old Apt",
             "event_type": "heart",
-            "photo_urls":["../images/paptold1.jpg"]
+            "photo_urls":["images/paptold1.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -63,7 +63,7 @@ points = {
             "Description":"Lazy Saturdays, Sporcle, Snapchat Photos, Scattegories",
             "Location":"Patricia's Apt",
             "event_type": "heart",
-            "photo_urls":["../images/papt1.jpg","../images/papt2.jpg","../images/papt3.jpg","../images/papt4.jpg"]
+            "photo_urls":["images/papt1.jpg","images/papt2.jpg","images/papt3.jpg","images/papt4.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -81,7 +81,7 @@ points = {
             "Description":"Teaching Joe How to Selfie",
             "Location":"Riverside Park",
             "event_type": "star",
-            "photo_urls":["../images/ny1.jpg","../images/ny2.jpg","../images/ny3.jpg"]
+            "photo_urls":["images/ny1.jpg","images/ny2.jpg","images/ny3.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -117,7 +117,7 @@ points = {
             "Description":"Patricia Meets Joan",
             "Location":"Mama Glatman's Apt",
             "event_type": "star",
-            "photo_urls":["../images/nyapt1.png"]
+            "photo_urls":["images/nyapt1.png"]
          },
          "geometry":{
             "type":"Point",
@@ -135,7 +135,7 @@ points = {
             "Description":"Shannon and Julie's Wedding",
             "Location":"Maryland",
             "event_type": "star",
-            "photo_urls":["../images/wedding1.jpg","../images/wedding2.jpg","../images/wedding3.jpg","../images/wedding4.jpg"]
+            "photo_urls":["images/wedding1.jpg","images/wedding2.jpg","images/wedding3.jpg","images/wedding4.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -171,7 +171,7 @@ points = {
             "Description":"Joe Meets the Frontanes Family",
             "Location":"San Juan, PR",
             "event_type": "star",
-            "photo_urls":["../images/sanjuan3.jpg","../images/sanjuan1.jpg","../images/sanjuan2.jpg"]
+            "photo_urls":["images/sanjuan3.jpg","images/sanjuan1.jpg","images/sanjuan2.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -189,7 +189,7 @@ points = {
             "Description":"Joe and Patricia Go Wine Tasting",
             "Location":"Bull Run Winery",
             "event_type": "star",
-            "photo_urls":["../images/winery4.jpg","../images/winery1.jpg","../images/winery3.jpg","../images/winery2.jpg"]
+            "photo_urls":["images/winery4.jpg","images/winery1.jpg","images/winery3.jpg","images/winery2.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -207,7 +207,7 @@ points = {
             "Description":"First Yankee Game Together",
             "Location":"Yankee Stadium",
             "event_type": "sport",
-            "photo_urls":["../images/yankees1.jpg","../images/yankees2.jpg"]
+            "photo_urls":["images/yankees1.jpg","images/yankees2.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -225,7 +225,7 @@ points = {
             "Description":"Visiting a Beautiful Island",
             "Location":"Caja de muertos",
             "event_type": "star",
-            "photo_urls":["../images/island1.jpg"]
+            "photo_urls":["images/island1.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -243,7 +243,7 @@ points = {
             "Description":"A Walk on the Beach",
             "Location":"Isabela - The Frontanes Beach House",
             "event_type": "heart",
-            "photo_urls":["../images/isabella1.jpg","../images/isabella2.jpg","../images/isabella3.jpg","../images/isabella4.jpg","../images/isabella5.jpg","../images/isabella6.jpg"]
+            "photo_urls":["images/isabella1.jpg","images/isabella2.jpg","images/isabella3.jpg","images/isabella4.jpg","images/isabella5.jpg","images/isabella6.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -261,7 +261,7 @@ points = {
             "Description":"Cave Hiking (Beware of Bats!)",
             "Location":"PR Caves",
             "event_type": "star",
-            "photo_urls":["../images/prcave1.jpg","../images/prcave2.jpg","../images/prcave3.jpg"]
+            "photo_urls":["images/prcave1.jpg","images/prcave2.jpg","images/prcave3.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -279,7 +279,7 @@ points = {
             "Description":"First Nats Game Together (with pics)",
             "Location":"Nats Park",
             "event_type": "sport",
-            "photo_urls":["../images/nats1.jpg","../images/nats2.jpg"]
+            "photo_urls":["images/nats1.jpg","images/nats2.jpg"]
          },
          "geometry":{
             "type":"Point",
