@@ -9,7 +9,7 @@ points = {
             "Description":"Joe and Patricia Meet",
             "Location":"Becca's House",
             "event_type": "star",
-            "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
+            "photo_urls":["images/becca1.jpg","images/becca2.jpg"]
          },
          "geometry":{
             "type":"Point",
