@@ -9,13 +9,13 @@ points = {
             "Description":"Joe and Patricia Meet",
             "Location":"Becca's House",
             "event_type": "star",
-            "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
+            "photo_urls":["images/becca1.jpg","images/becca2.jpg"]
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.043552,
-               38.924882
+               -77.0459287,
+               38.924304
             ]
          }
       },
@@ -27,7 +27,7 @@ points = {
             "Description":"Our First Kiss (Remember?)",
             "Location":"Genna's House",
             "event_type": "heart",
-            "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
+            "photo_urls":[]
          },
          "geometry":{
             "type":"Point",
@@ -45,7 +45,7 @@ points = {
             "Description":"The Relationship Begins for Real",
             "Location":"Patricia's Old Apt",
             "event_type": "heart",
-            "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
+            "photo_urls":["images/paptold1.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -60,10 +60,10 @@ points = {
          "properties":{
             "Date":"So many great days",
             "Time":"Unlimited",
-            "Description":"Cooking Dinners, Sporcle, Snapchat Photos, Scattegories",
+            "Description":"Lazy Saturdays, Sporcle, Snapchat Photos, Scattegories",
             "Location":"Patricia's Apt",
             "event_type": "heart",
-            "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
+            "photo_urls":["images/papt1.jpg","images/papt2.jpg","images/papt3.jpg","images/papt4.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -81,7 +81,7 @@ points = {
             "Description":"Teaching Joe How to Selfie",
             "Location":"Riverside Park",
             "event_type": "star",
-            "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
+            "photo_urls":["images/ny1.jpg","images/ny2.jpg","images/ny3.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -94,18 +94,198 @@ points = {
       {
          "type":"Feature",
          "properties":{
-            "Date":"06/26/2016",
+            "Date":"04/12/2016",
             "Time":"1:30pm EST",
             "Description":"First of Many Picnics: Joe Confirms, He's in Love",
             "Location":"Rock Creek Park",
             "event_type": "heart",
-            "photo_urls":["http://www.fillmurray.com/200/200","http://www.fillmurray.com/200/201"]
+            "photo_urls":[]
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
                -77.0526432,
                38.922084
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"06/24/2016",
+            "Time":"11:30pm EST",
+            "Description":"Patricia Meets Joan",
+            "Location":"Mama Glatman's Apt",
+            "event_type": "star",
+            "photo_urls":["images/nyapt1.png"]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.9820432,
+               40.7865848
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"05/30/2016",
+            "Time":"04:00pm EST",
+            "Description":"Shannon and Julie's Wedding",
+            "Location":"Maryland",
+            "event_type": "star",
+            "photo_urls":["images/wedding1.jpg","images/wedding2.jpg","images/wedding3.jpg","images/wedding4.jpg"]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.4147057,
+               39.3790692
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"05/15/2016",
+            "Time":"11:00pm EST",
+            "Description":"Joe Tells Patricia He Loves Her!",
+            "Location":"The George",
+            "event_type": "heart",
+            "photo_urls":[]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.0295877,
+               38.909051
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"05/17/2016",
+            "Time":"11:00pm EST",
+            "Description":"Joe Meets the Frontanes Family",
+            "Location":"San Juan, PR",
+            "event_type": "star",
+            "photo_urls":["images/sanjuan3.jpg","images/sanjuan1.jpg","images/sanjuan2.jpg"]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -66.1365648,
+               18.4660551
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"07/03/2016",
+            "Time":"12:30pm EST",
+            "Description":"Joe and Patricia Go Wine Tasting",
+            "Location":"Bull Run Winery",
+            "event_type": "star",
+            "photo_urls":["images/winery4.jpg","images/winery1.jpg","images/winery3.jpg","images/winery2.jpg"]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.499392,
+               38.827453
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"06/25/2016",
+            "Time":"01:10pm EST",
+            "Description":"First Yankee Game Together",
+            "Location":"Yankee Stadium",
+            "event_type": "sport",
+            "photo_urls":["images/yankees1.jpg","images/yankees2.jpg"]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.9283632,
+               40.8296426
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"05/20/2016",
+            "Time":"08:00am EST",
+            "Description":"Visiting a Beautiful Island",
+            "Location":"Caja de muertos",
+            "event_type": "star",
+            "photo_urls":["images/island1.jpg"]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -66.5284448,
+               17.8930395
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"05/19/2016",
+            "Time":"04:00pm EST",
+            "Description":"A Walk on the Beach",
+            "Location":"Isabela - The Frontanes Beach House",
+            "event_type": "heart",
+            "photo_urls":["images/isabella1.jpg","images/isabella2.jpg","images/isabella3.jpg","images/isabella4.jpg","images/isabella5.jpg","images/isabella6.jpg"]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -67.0375721,
+               18.4992902
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"05/19/2016",
+            "Time":"12:00pm EST",
+            "Description":"Cave Hiking (Beware of Bats!)",
+            "Location":"PR Caves",
+            "event_type": "star",
+            "photo_urls":["images/prcave1.jpg","images/prcave2.jpg","images/prcave3.jpg"]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -66.824126,
+               18.342346
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"05/14/2016",
+            "Time":"01:00pm EST",
+            "Description":"First Nats Game Together (with pics)",
+            "Location":"Nats Park",
+            "event_type": "sport",
+            "photo_urls":["images/nats1.jpg","images/nats2.jpg"]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.0074329,
+               38.8730102
             ]
          }
       }

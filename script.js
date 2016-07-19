@@ -19,19 +19,6 @@ map.addControl(sidebar);
 
 var photoDiv = '';
 
-// function circlestyle(feature) {
-//   return {
-//     radius: 8,
-//     fillColor: 'red',
-//     weight: 1,
-//     opacity: 1,
-//     color: 'white',
-//     // dashArray: '3',
-//     fillOpacity: 1,
-//     className: 'circleMarker'
-//   };
-// }
-
 var heartIcon = L.divIcon({className: 'heart-div-icon', iconSize: null});
 var foodIcon = L.divIcon({className: 'food-div-icon', iconSize: null});
 var sportIcon = L.divIcon({className: 'sport-div-icon', iconSize: null});
@@ -47,21 +34,24 @@ pointMarkers = L.geoJson(points, {
     var showPhotos = function () {
       photoDiv = L.DomUtil.create('div', 'popup-photo-div')
       var photoLength = feature.properties.photo_urls.length;
+      console.log(photoLength);
       var properties = feature.properties;
-      for (var i = 0; i < photoLength; i++){
-        var imageEl = document.createElement('img');
-        imageEl.classList.add('popup-photo')
-        imageEl.src = properties.photo_urls[i];
-        photoDiv.appendChild(imageEl)
+      if (photoLength === 0) {
+        photoDiv.innerHTML = "<div>We'll add pics together :)</div>"
+      } else {
+        for (var i = 0; i < photoLength; i++){
+          var imageEl = document.createElement('img');
+          imageEl.classList.add('popup-photo')
+          imageEl.src = properties.photo_urls[i];
+          photoDiv.appendChild(imageEl)
+        }
       }
       console.log(photoDiv);
       return photoDiv.innerHTML
     };
-    // point.bindPopup('<p><span class=spanText>What</span>: '+feature.properties.Description+'</p><p><span class=spanText>Where</span>: '+feature.properties.Location+'</p>'+'<p><span class=spanText>Date</span>: '+feature.properties.Date+'</p><p><span class=spanText>Time</span>: '+feature.properties.Time+'</p><div>'+showPhotos()+'</div>',
-    // {maxWidth: 250, minWidth: 200, maxHeight: 150, autoPan: true});
     point.on('click', function (){
       var sidebarDiv = document.querySelector("#sidebar");
-      sidebarDiv.innerHTML = '<p><span class=spanText>What</span>: '+feature.properties.Description+'</p><p><span class=spanText>Where</span>: '+feature.properties.Location+'</p>'+'<p><span class=spanText>Date</span>: '+feature.properties.Date+'</p><p><span class=spanText>Time</span>: '+feature.properties.Time+'</p><div>'+showPhotos()+'</div>'
+      sidebarDiv.innerHTML = '<div class=sidebar-text><p class=what-text>'+feature.properties.Description+'</p><p><span class=spanText>Where</span>: '+feature.properties.Location+'</p>'+'<p><span class=spanText>Date</span>: '+feature.properties.Date+'</p></div><div>'+showPhotos()+'</div>'
       sidebar.show();})
   }
 }).addTo(map);
@@ -76,6 +66,5 @@ introButton.addEventListener("click", function (){
 
 function createIcon (type) {
   var myIcon = L.divIcon({className: type+'-div-icon', iconSize: null});
-  console.log(myIcon);
   return myIcon
 }
