@@ -9,7 +9,7 @@ points = {
             "Description":"Joe and Patricia Meet",
             "Location":"Becca's House",
             "event_type": "star",
-            "photo_urls":["images/becca1.jpg","images/becca2.jpg"]
+            "photo_urls":["images/becca1.jpg","images/becca2.jpg","images/becca3.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -63,7 +63,7 @@ points = {
             "Description":"Lazy Saturdays, Sporcle, Snapchat Photos, Scattegories",
             "Location":"Patricia's Apt",
             "event_type": "heart",
-            "photo_urls":["images/papt1.jpg","images/papt2.jpg","images/papt3.jpg","images/papt4.jpg"]
+            "photo_urls":["images/papt7.jpg","images/papt1.jpg","images/papt2.jpg","images/papt3.jpg","images/papt4.jpg","images/papt6.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -81,7 +81,7 @@ points = {
             "Description":"Teaching Joe How to Selfie",
             "Location":"Riverside Park",
             "event_type": "star",
-            "photo_urls":["images/ny1.jpg","images/ny2.jpg","images/ny3.jpg"]
+            "photo_urls":["images/ny1.jpg","images/ny2.jpg","images/ny3.jpg","images/ny4.jpg","images/ny5.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -99,7 +99,7 @@ points = {
             "Description":"First of Many Picnics: Joe Confirms, He's in Love",
             "Location":"Rock Creek Park",
             "event_type": "heart",
-            "photo_urls":[]
+            "photo_urls":["images/picnic1.jpg","images/picnic2.jpg","images/picnic3.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -117,7 +117,7 @@ points = {
             "Description":"Patricia Meets Joan",
             "Location":"Mama Glatman's Apt",
             "event_type": "star",
-            "photo_urls":["images/nyapt1.png"]
+            "photo_urls":["images/nyapt1.png","images/nyapt2.jpg"]
          },
          "geometry":{
             "type":"Point",
@@ -286,6 +286,42 @@ points = {
             "coordinates":[
                -77.0074329,
                38.8730102
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"07/24/2016",
+            "Time":"10:45am EST",
+            "Description":"Escape Room",
+            "Location":"Old Town Alexandria",
+            "event_type": "star",
+            "photo_urls":["images/alexandria1.jpg","images/alexandria2.jpg"]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.0487824,
+               38.8050705
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "Date":"Always",
+            "Time":"Forever",
+            "Description":"All the Other DC Memories",
+            "Location":"Washington, DC",
+            "event_type": "star",
+            "photo_urls":["images/dc1.jpg"]
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.0387357,
+               38.8985552
             ]
          }
       }
